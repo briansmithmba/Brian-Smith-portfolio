@@ -8,14 +8,22 @@
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <meta name="theme-color" content="#f2f0e9">
   <style>
-    *{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;background:#f2f0e9;font-family:Arial,Helvetica,sans-serif;color:#175d54}
-    body{display:grid;grid-template-rows:42px 1fr}.bar{display:flex;align-items:center;justify-content:space-between;padding:0 18px;border-bottom:1px solid #175d5438;background:#f2f0e9}
+    *{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;background:#ded9cc;font-family:Arial,Helvetica,sans-serif;color:#175d54}
+    body{display:grid;grid-template-rows:42px 1fr;overflow:hidden}.bar{z-index:2;display:flex;align-items:center;justify-content:space-between;padding:0 18px;border-bottom:1px solid #175d5438;background:#f2f0e9}
     .bar strong{font-size:12px;letter-spacing:.08em;text-transform:uppercase}.bar a{color:#175d54;font-size:11px;font-weight:800;text-decoration:none;border-bottom:1px solid #175d5470;padding-bottom:2px}
-    iframe{width:100%;height:100%;border:0;background:#ded9cc}
+    iframe{display:block;width:100%;max-width:100vw;height:100%;border:0;background:#ded9cc}.mobile-resume{display:none}
+    @media(max-width:760px){body{display:block;overflow:auto}.bar{position:sticky;top:0;min-height:58px;gap:12px;padding:8px 12px}.bar strong{max-width:66%;font-size:10px;line-height:1.25}.bar a{white-space:nowrap;font-size:10px}iframe{display:none}.mobile-resume{display:grid;gap:14px;padding:14px}.resume-page{margin:0;background:#fff;box-shadow:0 4px 16px #15211d24}.resume-page img{display:block;width:100%;height:auto}.mobile-note{text-align:center;color:#53605b;margin:0;padding:2px 10px 4px;font-size:11px;line-height:1.45}}
   </style>
 </head>
 <body>
   <header class="bar"><strong>Brian Smith, MBA · Executive Résumé</strong><a href="Brian-Smith-Executive-Resume.pdf" download>Download PDF</a></header>
-  <iframe src="Brian-Smith-Executive-Resume.pdf#view=FitH" title="Brian Smith Executive Résumé"></iframe>
+  <iframe src="Brian-Smith-Executive-Resume.pdf#view=Fit" title="Brian Smith Executive Résumé"></iframe>
+  <main class="mobile-resume" aria-label="Brian Smith executive résumé, four pages">
+    <p class="mobile-note">Swipe vertically to read all four pages. Use Download PDF for the original document.</p>
+    <figure class="resume-page"><img src="assets/resume-pages/page-1.webp" alt="Executive résumé page 1 of 4"></figure>
+    <figure class="resume-page"><img src="assets/resume-pages/page-2.webp" alt="Executive résumé page 2 of 4" loading="lazy"></figure>
+    <figure class="resume-page"><img src="assets/resume-pages/page-3.webp" alt="Executive résumé page 3 of 4" loading="lazy"></figure>
+    <figure class="resume-page"><img src="assets/resume-pages/page-4.webp" alt="Executive résumé page 4 of 4" loading="lazy"></figure>
+  </main>
 </body>
 </html>
