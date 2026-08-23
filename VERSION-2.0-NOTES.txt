@@ -1,0 +1,17 @@
+BRIAN SMITH EXECUTIVE PORTFOLIO — VERSION 2.0
+
+Status: Final desktop and smartphone release
+Date: August 23, 2026
+
+Version 2.0 was created from the approved version 1.99 release candidate after
+desktop browser testing and smartphone UAT/smoke testing passed.
+
+Final refinement:
+
+- Removed the redundant “Open Full Photograph” link from the annotated
+  patient-facing technology image while preserving the image and its caption.
+
+Version 1.99 remains preserved as the desktop release candidate.
+Production baseline version 1.5 remains frozen and unchanged.
+
+No GitHub or live-site changes were made while preparing this package.
