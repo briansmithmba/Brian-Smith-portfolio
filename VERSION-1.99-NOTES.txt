@@ -1,0 +1,28 @@
+BRIAN SMITH EXECUTIVE PORTFOLIO — VERSION 1.99
+
+Status: Desktop release candidate
+Date: August 22, 2026
+
+Version 1.99 preserves the completed v1.52 desktop material baseline and records
+the finished desktop experience as the release candidate preceding version 2.0.
+
+Version 2.0 is reserved for the build that includes the completed and verified
+smartphone experience.
+
+Production baseline version 1.5 remains frozen and unchanged.
+
+DESKTOP SANITY TEST — PASSED
+
+- Verified at 1680 × 1100 and 1280 × 800 desktop viewports.
+- No horizontal overflow, broken local references, broken images, duplicate IDs,
+  unresolved navigation targets, or main-page console errors were found.
+- Verified primary navigation, location-map reveal and scroll dismissal, contact
+  panel open/close behavior, required-field validation, and return-to-top behavior.
+- Verified the four-page desktop résumé viewer and PDF download target.
+- Verified the completed patient-facing technology image and closing section.
+- Added a cross-browser hero-control fit correction after Safari, Chrome, and
+  DuckDuckGo testing exposed browser-specific label crowding. The three controls
+  remain equal in size, centered, and aligned.
+
+Manual Chrome and Safari release checks remain recommended before publication.
+Smartphone optimization and approval are reserved for version 2.0.

@@ -1,0 +1,57 @@
+BRIAN SMITH EXECUTIVE PORTFOLIO — VERSION 1.52
+August 21, 2026
+
+LOCAL DEVELOPMENT REVISION
+
+Version 1.52 was created from the exact version 1.51 development package.
+Version 1.5 remains the protected production baseline and was not changed.
+
+Focused corrections:
+
+- Fixed the desktop location popup so the Tampa map and markers remain visible
+  after the popup is moved outside its original hero container.
+- Made the detached map reveal rules viewport-independent so its contents
+  cannot disappear at intermediate browser widths.
+- Restored the Florida-to-Tampa zoom sequence with a self-contained transition
+  that continues to work after the popup moves outside its original container.
+- The Tampa phase now completes its reveal mask reliably, preventing the loaded
+  map image from remaining clipped and blank.
+- Positioned the desktop popup inside the portrait frame's open left side,
+  above the name bar and away from Brian's figure.
+- Corrected the Florida-stage location pin to Tampa and moved the popup slightly
+  farther left for additional clearance from Brian's figure.
+- Moved the Tampa-map destination marker west and reconnected the dotted route
+  from the airport to the destination pin.
+- Refined the destination again to downtown Tampa and shortened the airport
+  route to remain connected to the relocated pin.
+- Shifted the downtown pin slightly southeast so it clears the Tampa
+  International Airport label while remaining connected to the dotted route.
+- Expanded and reset the Tampa-stage composition, independently positioning
+  the airport icon on the airport and the destination pin on downtown Tampa.
+- Reordered the primary navigation to match the page's actual reading order.
+- Increased contrast on muted copy outside the deferred Early Product
+  Innovation section.
+- Standardized and vertically centered all Hybrid diagram box labels.
+- Matched the desktop Explore, Résumé, and Location controls to one size,
+  typography treatment, and horizontal row while preserving the mobile layout.
+- Locked Sprint 1, Sprint 2, and Sprint 3 to the same font declaration and
+  tabular numeral spacing.
+- Explicitly centered all three Sprint labels on both axes with a consistent
+  optical adjustment.
+- The location button now centers the hero before opening the map; subsequent
+  page movement closes it, as does pressing the button again.
+- Hero recentering is completed immediately before popup placement so the map
+  remains anchored beside the portrait when opened from a partially scrolled
+  hero view.
+- Preserved the viewport-contained mobile map overlay behavior.
+- Lowered the military Operations / Readiness tile group for better vertical
+  balance.
+- Nudged that tile group slightly upward after visual review.
+- Rebuilt the patient-facing technology case into a cleaner two-column desktop
+  composition with a contained evidence image and more structured copy.
+- Enlarged the Hybrid delivery diagram and widened the Release box so its label
+  fits cleanly.
+- Reduced only the long Requirements label so it remains fully inside its box.
+- Updated the visible development version to 1.52.
+
+No GitHub or live-site changes were made.
