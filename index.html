@@ -2046,35 +2046,34 @@ main[data-material-version="1.52"] .scroll-top b { font-size: 8px; letter-spacin
 }
 </style>
 <style id="headline-readability-fix-v2-1">
-/* Preserve the existing typography while removing compressed tracking that
-   caused adjacent letters to appear joined in display headings. */
-.hero h1,
-.section-heading h2,
-.leadership-copy h2,
-.contact-section h2,
-.enterprise-impact header h2,
-.military-copy h2,
-.community-section h2,
-.scale-intro h2,
-.technology-section h2,
-.recognition-section h2,
-.recommendations-section h2,
-.platform-copy h2,
-.ai-heading h2,
-.delivery-suite-head h3,
-.case h3,
-.enterprise-impact-cards h3,
-.delivery-model .case-copy h3,
-main[data-release-version="1.20"] .delivery-approach-grid summary h3,
-.delivery-method-card h3,
-.readiness-case-head h2,
-.people-leadership h2,
-.recovery-copy h4,
-.ai-capabilities h3,
-.career-timeline article > strong,
-.marquis-wordmark,
-.guc-copy strong,
-.credential-content > strong {
+/* Keep the bold hero compact without allowing heavy letterforms to touch.
+   Add breathing room only to italic display phrases elsewhere. */
+.hero h1 {
+  letter-spacing: -.035em !important;
+}
+.hero h1 em,
+.section-heading h2 em,
+.leadership-copy h2 em,
+.contact-section h2 em,
+.enterprise-impact header h2 em,
+.military-copy h2 em,
+.community-section h2 em,
+.scale-intro h2 em,
+.technology-section h2 em,
+.recognition-section h2 em,
+.recommendations-section h2 em,
+.platform-copy h2 em,
+.ai-heading h2 em,
+.delivery-suite-head h3 em,
+.case h3 em,
+.enterprise-impact-cards h3 em,
+.delivery-model .case-copy h3 em,
+main[data-release-version="1.20"] .delivery-approach-grid summary h3 em,
+.delivery-method-card h3 em,
+.readiness-case-head h2 em,
+.people-leadership h2 em,
+.recovery-copy h4 em,
+.ai-capabilities h3 em {
   letter-spacing: 0 !important;
   font-kerning: normal;
 }

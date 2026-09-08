@@ -19,8 +19,8 @@ Updates:
 - Aligned the delivery-method language to verified hybrid Agile, Scrum, and
   Waterfall practices.
 - Corrected the CIBER financial wording from budget to recurring procurement.
-- Removed compressed letter spacing from display headings so adjacent letters
-  remain visually distinct without changing the site's typeface or design.
+- Balanced the hero headline spacing so bold letters remain compact without
+  touching, while italic display phrases retain enough room to remain distinct.
 - Replaced the public résumé with the phone-free, three-page September 7 version
   using the balanced two-column contact layout.
 - Rebuilt all three mobile résumé images from that same public PDF and removed
